@@ -176,6 +176,9 @@
     <Compile Include="..\..\TrickyUnits\qstream.cs">
       <Link>TrickyUnits\qstream.cs</Link>
     </Compile>
+    <Compile Include="..\Libraries\BubbleJCRClass.cs">
+      <Link>BubbleLib\BubbleJCRClass.cs</Link>
+    </Compile>
     <Compile Include="..\Libraries\BubbleMainClass.cs">
       <Link>BubbleLib\BubbleMainClass.cs</Link>
     </Compile>

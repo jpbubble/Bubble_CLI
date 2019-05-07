@@ -176,6 +176,9 @@
     <Compile Include="..\..\TrickyUnits\qstream.cs">
       <Link>TrickyUnits\qstream.cs</Link>
     </Compile>
+    <Compile Include="..\Libraries\BubbleBankClass.cs">
+      <Link>BubbleLib\BubbleBankClass.cs</Link>
+    </Compile>
     <Compile Include="..\Libraries\BubbleJCRClass.cs">
       <Link>BubbleLib\BubbleJCRClass.cs</Link>
     </Compile>
@@ -195,6 +198,9 @@
     <None Include="..\..\JCR6\Drivers\Compression\zlib\readme.md">
       <Link>JCR6\Compression\zlib\readme.md</Link>
     </None>
+    <EmbeddedResource Include="..\NIL\NIL.lua">
+      <Link>Lua\NIL.lua</Link>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
